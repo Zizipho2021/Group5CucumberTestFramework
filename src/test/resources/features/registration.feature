@@ -1,7 +1,7 @@
 Feature: User Registration
 
   Background:
-    Given User navigates to the registration page
+    Given User navigates to the registration page to register user
 
   Scenario Outline: Successful user registration with auto-generated email
     When User enters first name as <firstName>
@@ -13,6 +13,7 @@ Feature: User Registration
     And User clicks the register button
     Then User accepts the alert popup
     And User should be redirected to the login page
+
 
     Examples:
       | firstName | lastName |Password       |ConfirmPassword  |
