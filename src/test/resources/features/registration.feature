@@ -18,10 +18,4 @@ Feature: User Registration
       | firstName | lastName |Password       |ConfirmPassword  |
       | John      | Doe      |Password@123 |Password@123 |
 
-    # When Admin logs in after registration
-    # Then Login should be successful
-    #And Admin welcome text should be displayed
-   # When Admin clicks on admin dropdown and selects admin panel
-   # Then Admin Dashboard heading should be displayed
-   # When Admin clicks on Manage Users button
 

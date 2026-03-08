@@ -6,8 +6,6 @@ Feature: Admin Panel
     When Admin clicks on Manage Users button
     Given Admin logs in after registration with <newUserPassword>
 
-
-
     Examples:
       |newUserPassword|
       |Password@123|

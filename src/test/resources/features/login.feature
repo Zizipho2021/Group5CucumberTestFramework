@@ -8,7 +8,7 @@ Feature: User login test
     And I click the login button
 
     Examples:
-      | username       | password   |
+      | username            | password   |
       | admin@gmail.com     | @12345678 |
 
 
