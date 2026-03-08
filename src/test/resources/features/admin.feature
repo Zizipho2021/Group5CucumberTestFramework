@@ -8,7 +8,7 @@ Feature: Admin Panel
 
     Examples:
       |newUserPassword|
-      |Password@123|
+      |Password@123   |
 
 
 

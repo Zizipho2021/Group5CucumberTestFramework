@@ -1,5 +1,4 @@
-Feature: Delete User from Admin Panel
-
+Feature: Delete User from Admin Panel once created
 
   Scenario: Admin deletes a user from the admin panel
     Given User is logged in as admin

@@ -1,6 +1,5 @@
 Feature: User login test
 
-
   Scenario Outline: Successful login with valid credentials
     Given I am on the login page
     When I enter valid username <username>
